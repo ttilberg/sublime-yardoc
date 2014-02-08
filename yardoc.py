@@ -94,10 +94,7 @@ class YardocCommand(sublime_plugin.TextCommand):
         return ["#" + self.trailing_spaces, "# @author " + author, "#" + self.trailing_spaces]
 
     def line_ending(self):
-        ending = "\n"
-        if(self.view.line_endings() == "Windows"):
-            ending = "\r\n"
-        return ending
+        return "\n"
 
     def format_lines(self, indent, lines):
         ending = self.line_ending()
