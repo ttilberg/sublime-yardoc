@@ -125,7 +125,7 @@ class YardocCommand(sublime_plugin.TextCommand):
         lines = []
         if(self.settings.get('initial_empty_line')):
             lines.append("#" + self.trailing_spaces)
-        lines.append("# ${1:[ module description]}")
+        lines.append("# ${1:[module description]}")
         lines.extend(self.get_author())
         if(self.settings.get('trailing_empty_line')):
             lines.append("#" + self.trailing_spaces)
@@ -135,7 +135,7 @@ class YardocCommand(sublime_plugin.TextCommand):
         lines = []
         if(self.settings.get('initial_empty_line')):
             lines.append("#" + self.trailing_spaces)
-        lines.append("# ${1:[ class description]}")
+        lines.append("# ${1:[class description]}")
         lines.extend(self.get_author())
         if(self.settings.get('trailing_empty_line')):
             lines.append("#" + self.trailing_spaces)
