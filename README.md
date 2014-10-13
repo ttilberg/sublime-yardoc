@@ -1,5 +1,9 @@
 ## SublimeText package for generating Yardoc
 
+This is a fork of the original [sublime-yardoc](https://github.com/revathskumar/sublime-yardoc) with some my improvements.
+
+---
+
 ### Installation
 
 ### With Package Control
