@@ -6,6 +6,12 @@ This is a fork of the original [sublime-yardoc](https://github.com/revathskumar/
 
 ### Installation
 
+- In Command Palette (ctrl+shift+p or cmd+shift+p) select: `Package Control: Add Repository`
+  - Add this project's GitHub URL: https://github.com/phts/sublime-yardoc
+
+- In the Command Palette, select: `Package Control: Install Package`
+  - Search for `sublime-yardoc` and ensure the source references this repository
+  
 ### With Package Control
 The easiest way to install this is with [Package Control](http://wbond.net/sublime\_packages/package\_control).
 
